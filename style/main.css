@@ -13,7 +13,7 @@ body {
 
 .container {
   overflow-y: scroll;
-  height: 140vh;
+  height: 130vh;
   margin: 0 auto;
   overflow: hidden;
   position: relative;
