@@ -1,14 +1,14 @@
 // trigger to play music in the background with sweetalert
 window.addEventListener('load', () => {
     Swal.fire({
-        title: 'Do you want to play music in the background?',
+        title: 'Dengerin lagunya ya!!',
         // text: "You won't be able to revert this!",
         icon: 'warning',
         showCancelButton: true,
         confirmButtonColor: '#3085d6',
         cancelButtonColor: '#d33',
-        confirmButtonText: 'Yes',
-        cancelButtonText: 'No',
+        confirmButtonText: 'Okay',
+        cancelButtonText: 'Nggak ahh',
     }).then((result) => {
         if (result.isConfirmed) {
             document.querySelector('.song').play();
@@ -105,7 +105,7 @@ const animationTimeline = () => {
     .to(".fake-btn", 0.1, {
         backgroundColor: "rgb(127, 206, 248)",
     },
-    "+=4")
+    "+=1")
     .to(
         ".four",
         0.5, {
@@ -200,7 +200,7 @@ const animationTimeline = () => {
         "-=2"
     )
     .from(".hat", 0.5, {
-        x: -100,
+        x: -5000,
         y: 350,
         rotation: -180,
         opacity: 0,
@@ -210,7 +210,7 @@ const animationTimeline = () => {
         0.7, {
             opacity: 0,
             y: -50,
-            // scale: 0.3,
+            scale: 0.3,
             rotation: 150,
             skewX: "30deg",
             ease: Elastic.easeOut.config(1, 0.5),
