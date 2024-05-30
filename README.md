@@ -1,5 +1,5 @@
 ## Credits
 (https://fajarghifar.github.io/happybirthday/)
 
-# 🤝 License
-### [MIT](LICENSE)
+## License
+[MIT](LICENSE)
