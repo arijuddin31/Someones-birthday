@@ -12,13 +12,14 @@ body {
 }
 
 .container {
-  height: 100vh;
+  overflow-y: scroll;
+  height: 110vh;
   margin: 0 auto;
   overflow: hidden;
   position: relative;
   text-align: center;
   visibility: hidden;
-  width: 100vw;
+  width: 95vw;
 }
 
 .container > div {
@@ -105,8 +106,6 @@ body {
 .six img {
   display: inline-block;
   height: auto;
-  /* max-width: 33.33vw; */
-  /* max-height: 400px; */
   max-width: 550px;
   max-height: 350px;
 }
