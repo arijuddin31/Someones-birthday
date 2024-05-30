@@ -5,6 +5,7 @@ html {
 body {
   font-family: "Poppins", sans-serif;
   margin: 0;
+  padding: 0 20px;
 }
 
 .song {
@@ -14,7 +15,8 @@ body {
 .container {
   overflow-y: scroll;
   height: 130vh;
-  margin: 0 auto;
+  margin: 0 0;
+  padding: 0 20px;
   overflow: hidden;
   position: relative;
   text-align: center;
@@ -84,7 +86,7 @@ body {
 }
 
 .five .idea-5 {
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
 .idea-5 span,
