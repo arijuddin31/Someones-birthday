@@ -105,8 +105,10 @@ body {
 .six img {
   display: inline-block;
   height: auto;
+  /* max-width: 33.33vw; */
+  /* max-height: 400px; */
   max-width: 550px;
-  max-height: 400px;
+  max-height: 350px;
 }
 
 .six .hat {
@@ -212,7 +214,7 @@ body {
 }
 
 .wish h5 {
-  font-size: 2rem;
+  font-size: 1rem;
   font-weight: lighter;
   margin: 10px 0 0;
 }
