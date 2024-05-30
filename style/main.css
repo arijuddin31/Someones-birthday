@@ -5,7 +5,6 @@ html {
 body {
   font-family: "Poppins", sans-serif;
   margin: 0;
-  padding: 0 20px;
 }
 
 .song {
@@ -15,8 +14,7 @@ body {
 .container {
   overflow-y: scroll;
   height: 130vh;
-  margin: 0 0;
-  padding: 0 20px;
+  margin: 0 auto;
   overflow: hidden;
   position: relative;
   text-align: center;
